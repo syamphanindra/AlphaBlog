@@ -13,7 +13,10 @@ $navbar-default-bg : black;
 .article-title{
   font-weight:bold;
   font-size:1.5em;
-  
+  .article-meta-data{
+    border-top:1px solid #eaeaea;
+    margin-top:15px;
+  }
 }
 .article-body{
   padding-bottom:10px;
