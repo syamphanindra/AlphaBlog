@@ -2,6 +2,9 @@ $navbar-default-bg : black;
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+.listing {
+  list-style:none;
+}
 #logo {
   color:#fff;
   float:left;
