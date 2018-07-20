@@ -27,6 +27,11 @@
      
   
  <%= simple_format(@article.description) %>
+     <% if @article.categories.any? %>
+     <p>
+       <%= render @article.categories %>
+     </p>
+     <% end %>
 </div>
 </div>
   </div>

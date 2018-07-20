@@ -5,6 +5,17 @@ $navbar-default-bg : black;
 .listing {
   list-style:none;
 }
+.classWithPad {  padding-right:10px; }
+.badge{
+  color:#cef6f5;
+  text-transform:uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+.input_checkbox input {
+  width: auto !important;
+}
 #logo {
   color:#fff;
   float:left;
